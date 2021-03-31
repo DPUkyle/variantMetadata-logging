@@ -2,7 +2,7 @@
 
 Toy project to illustrate inconsistent behavior with a static logger and three methods of `org.gradle.api.artifacts.VariantMetadata`.
 
-This is also documented at gradle/gradle#16679
+This is also documented at [gradle/gradle#16679](https://github.com/gradle/gradle/issues/16679)
 
 * `VariantMetadata#withCapabilities(Action<? super MutableCapabilitiesMetadata>)` - logs successfully
 * `VariantMetadata#attributes(Action<? super AttributeContainer>)` - logs successfully
